@@ -1,7 +1,7 @@
 # Table of contents
 
 * [What is Umbraco Cloud? Let´s find out!](README.md)
-* [Frequently asked questions](frequently-asked-questions.md)
+* [Frequently asked questions/FAQ](frequently-asked-questions.md)
 * [Security](security.md)
 
 ## Getting Started
