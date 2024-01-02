@@ -58,7 +58,7 @@ To specify the hostname for each root node using a multisite setup, follow these
 2. Right-click the root content node.
 3. Select **Culture and Hostnames**.
 4. In the **Culture and Hostnames** window, click **Add New Domain**.
-5. Enter your **Domain** name and select the **Language** from the drop-down list. ![Culture and Hostnames](../../manage-hostnames/images/culture-and-hostnames-v10.png)
+5. Enter your **Domain** name and select the **Language** from the drop-down list. ![Culture and Hostnames](../../../.gitbook/assets/culture-and-hostnames-v10.png)
 6. Click **Save**.
 
 Once you've assigned a Hostname to your Umbraco Cloud environment, you may want to hide the default `umbraco.io` URL (e.g. _snoopy.euwest01.umbraco.io_). To do so, see the [Rewrites on Cloud](rewrites-on-cloud.md#hiding-the-default-umbracoio-url) article.

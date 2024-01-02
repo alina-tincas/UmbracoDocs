@@ -16,7 +16,7 @@ Under Availability & Performance, you'll find visualization and statistics for t
 * Panel view
 * Chart and statistics view
 
-![Availability and performance Overview](../images/AP-Overview.png)
+![Availability and performance Overview](../../.gitbook/assets/AP-Overview.png)
 
 {% hint style="info" %}
 The page initially displays metrics for the live environment for all Umbraco Cloud projects. More detailed visualization and tools intended for troubleshooting to be added in the future will be restricted to **Standard** and **Professional** project plans.
@@ -26,7 +26,7 @@ The page initially displays metrics for the live environment for all Umbraco Clo
 
 When entering the page, you'll see a default visualization of failed requests for the last 24 hours with a data point set for every fifth minute. You are able to change the time range to a predefined interval or define a specific start and end time. You can also select the granularity of the data points.
 
-![Time-range-selector](../images/AP-time-range-selector.png)
+![Time-range-selector](../../.gitbook/assets/AP-time-range-selector.png)
 
 Initially, you will only be able to set the time granularity to “_5 minutes_”.
 
@@ -34,7 +34,7 @@ Initially, you will only be able to set the time granularity to “_5 minutes_�
 
 The panel selector consists of four tiles, each representing a specific segment of data. The four segments are **failed request**, **App Performance**, **CPU Usage**, and **Memory Usage**.
 
-![Pane-view](../images/AP-Panel-Selector.png)
+![Pane-view](../../.gitbook/assets/AP-Panel-Selector.png)
 
 Each tile includes relevant statistics and potentially a warning or an error indicator in case there is something you might want to consider.
 
@@ -60,7 +60,7 @@ For each segment, there will be shown a chart and a set of related statistics.
 
 The chart shows the breakdown of HTTP status codes for each data point with the selected granularity. Only responses indicating a client (4xx region) or server errors (5xx region) are shown.
 
-![Failed-request](../images/AP-1-FailedRequests.png)
+![Failed-request](../../.gitbook/assets/AP-1-FailedRequests.png)
 
 In the statistics panel on the right, you will find the total instances of the status code in the time range.
 
@@ -68,7 +68,7 @@ In the statistics panel on the right, you will find the total instances of the s
 
 The chart shows the average response time during the selected time range. All requests to the Umbraco solution in the time periods with the length of the selected granularity count to average response time.
 
-![AppPerformance](../images/AP-2-AppPerformance.png)
+![AppPerformance](../../.gitbook/assets/AP-2-AppPerformance.png)
 
 The statistics panel shows the average, maximum, and minimum response for the shown data points.
 
@@ -76,7 +76,7 @@ The statistics panel shows the average, maximum, and minimum response for the sh
 
 The chart depicts the CPU time consumed by the application in the selected time range with time periods equalling the selected granularity.
 
-![Cpu usage](../images/AP-3-CpuUsage2.png)
+![Cpu usage](../../.gitbook/assets/AP-3-CpuUsage2.png)
 
 Cloud projects using a shared resource and a granularity of 5 minutes, users will see the assigned CPU time in seconds and a comparison against the [plan quota](https://docs.umbraco.com/umbraco-cloud/getting-started/umbraco-cloud-plans).\
 In this case, the statistics panel shows the following:
@@ -92,7 +92,7 @@ Cloud projects on dedicated options (or a shared plan with another granularity t
 
 The chart shows the memory usage in private bytes consumed by the application in the selected time range with time periods equalling the selected granularity.
 
-![Memory usage](../images/AP-4-MemoryUsage.png)
+![Memory usage](../../.gitbook/assets/AP-4-MemoryUsage.png)
 
 Cloud projects on shared resources with a granularity of 5 minutes, will see the assigned private bytes in megabytes (MB) and a comparison against the [plan quota](https://docs.umbraco.com/umbraco-cloud/getting-started/umbraco-cloud-plans).
 

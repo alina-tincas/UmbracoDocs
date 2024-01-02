@@ -8,7 +8,7 @@ To work with Mac:
 
 1.  On the Umbraco Cloud portal, go to your project and clone the site using your favorite Git client.
 
-    <figure><img src="images/clone-project.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/clone-project.png" alt=""><figcaption></figcaption></figure>
 2.  Configure a SQL Server connection string using `ConnectionStrings` in `appsettings.json` or `appsettings.Development.json` (the `launchSettings.json` configures the local instance to run as 'Development'):
 
     ```json

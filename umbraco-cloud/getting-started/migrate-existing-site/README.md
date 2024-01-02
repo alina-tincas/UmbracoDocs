@@ -92,13 +92,13 @@ In this next part, you are going to set up your Umbraco Cloud project and clone 
 
 Before the migration process can start, you will need to have a Umbraco Cloud project you can migrate your project into.
 
-![How to start a Umbraco Cloud trial](images/Cloud-trial-gif.gif)
+![How to start a Umbraco Cloud trial](../../.gitbook/assets/Cloud-trial-gif.gif)
 
 1. The best way to get started with Umbraco Cloud is to [create a trial project](https://umbraco.com/)
 2. When your project is starting choose to start with a _clean slate_ - you need to have an empty Cloud project for the migration to be successful
 3. We recommend that you set up your project with at least two environments.
 
-![Manage environments](images/setup-dev-env.png)
+![Manage environments](../../.gitbook/assets/setup-dev-env.png)
 
 Have you been working with members and made changes to the default Member Type on your existing site?
 
@@ -110,7 +110,7 @@ Follow these steps on the Umbraco Cloud environment:
 4. Delete **Member**
 5. Repeat these steps on all the Cloud environments
 
-![Default media types](images/MemberType-delete.png)
+![Default media types](../../.gitbook/assets/MemberType-delete.png)
 
 ## 5. Clone down the Cloud project
 
@@ -206,7 +206,7 @@ For more details about UDA files, read the [UDA Files](../../set-up/power-tools/
   * When you see a `Last deployment operation completed` status, it means everything is working as expected
 * You should now see that your `/Umbraco/Deploy/revision` folder has been populated with UDA files corresponding to your project's metadata
 
-![Run echo > deploy-export](images/deployDashBoard.png)
+![Run echo > deploy-export](../../.gitbook/assets/deployDashBoard.png)
 
 Now the migrated project is ready to be deployed to the Umbraco Cloud environment.
 
@@ -227,7 +227,7 @@ When the push is complete go check out the Umbraco Cloud Portal to verify the in
 
 Go to the backoffice of your Development environment and make sure all your metadata is there. You won't see any content or media on the environment yet - this you will move in the next few steps.
 
-![Changes committed to Development environment](images/changes-on-dev.png)
+![Changes committed to Development environment](../../.gitbook/assets/changes-on-dev.png)
 
 ### Transfer your content and media
 
@@ -245,7 +245,7 @@ You will need to manually migrate them using SQL.
 ```
 {% endhint %}
 
-![Queue for transfer](images/transfer-v9.gif)
+![Queue for transfer](../../.gitbook/assets/transfer-v9.gif)
 
 **Voila!** You've now migrated your site to Umbraco Cloud.
 

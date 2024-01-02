@@ -37,6 +37,6 @@ If you refresh the page, the limit will go back to the standard 299.
 
 ## Important notes
 
-Kudu is **not** a tool meant for adding and removing files on your project. This should always be done via Git ([Local to Cloud](../working-locally.md)) and the Deploy engine([Cloud to Cloud](../../deployment/cloud-to-cloud.md)).
+Kudu is **not** a tool meant for adding and removing files on your project. This should always be done via Git ([Local to Cloud](../working-locally/)) and the Deploy engine([Cloud to Cloud](../../deployments/cloud-to-cloud.md)).
 
 We recommend that you **only** use Kudu when you are following one of our guides.

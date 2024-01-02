@@ -6,7 +6,7 @@ The Umbraco Cloud Portal helps you manage your Umbraco Cloud project. From here,
 
 When you log in to the [Umbraco Cloud Portal](https://www.s1.umbraco.io/home/login/), the projects dashboard gives an overview of all your Umbraco Cloud projects. Here, you can view all the projects you've created or have been added to as a team member.
 
-![View all projects](images/Umbraco-cloud-dashboard.png)
+![View all projects](../../.gitbook/assets/Umbraco-cloud-dashboard.png)
 
 You can see the project's environments, usage for each project and which plans it is on. You can also see whether it is a baseline or baseline-child project.
 
@@ -22,7 +22,7 @@ In the top-right corner of the Umbraco Cloud Portal, you will find:
 
 In the right-side corner of the Umbraco Cloud Portal, you can enable **Show environments** and **Show usage** of the project from the **Settings** option.
 
-![Settings](images/Settings.png)
+![Settings](../../.gitbook/assets/Settings.png)
 
 ### Collapse Groups
 
@@ -32,11 +32,11 @@ Collapse Groups allows you to collapse the groups on the project Dashboard. You 
 
 To get a better overview of your projects, it is possible to sort your projects into **Groups**. This can be done by clicking the **Edit Groups** button on the top right side of the Umbraco Cloud Portal.
 
-![Edit Groups](images/edit-group.png)
+![Edit Groups](../../.gitbook/assets/edit-group.png)
 
 After clicking on **Edit Groups**, you can create new Groups to sort your project in and create a better overview for yourself.
 
-![Create Group](images/add-group.png)
+![Create Group](../../.gitbook/assets/add-group.png)
 
 Click **Add Group** to give the group a name and then drag and drop your projects into the group of your choice.
 
@@ -44,7 +44,7 @@ Click **Add Group** to give the group a name and then drag and drop your project
 
 In the bottom-right corner of the Umbraco Cloud Portal, you'll find a chat bubble. This is where you can reach out to the Umbraco HQ Support Warriors, should you have any questions regarding your Umbraco Cloud projects.
 
-<figure><img src="images/Chat.PNG" alt=""><figcaption><p>Chat Feature</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Chat.PNG" alt=""><figcaption><p>Chat Feature</p></figcaption></figure>
 
 With the Starter and Standard plan, you are only entitled to support regarding specific issues regarding the Cloud platform. If you are on a Professional plan, you are entitled to support through the chat regarding implementation and issues with the CMS. For more information on plans and pricing, see [Umbraco Cloud plans](https://umbraco.com/pricing/).
 
@@ -64,7 +64,7 @@ When you click on the User Profile link, you will find the following options:
 
 Managing your projects has been made even simpler with Umbraco Cloud. If you go to a particular project, you can get a quick overview of the environments in your project.
 
-![Project Overview](images/project-overview-v10.png)
+![Project Overview](../../.gitbook/assets/project-overview-v10.png)
 
 * Project Name along with the options to **Manage environments**, **Invite User**, or **Settings** section.
 * Environment name along with the option to **Restart environment**, view **Error Logs** and **Logs**, **Clone project**, and access **Power Tools (Kudu)**.
@@ -73,7 +73,7 @@ Managing your projects has been made even simpler with Umbraco Cloud. If you go 
 
 While managing the environments on your project, click on **Manage environments** to add and/or remove environments as needed. Read more about how the number of environments varies depending on the plan you are on, in the [Project overview](../project-overview.md) article.
 
-Aside from these features, it's also from the project view that changes are deployed from one Cloud environment to another. Find out more in the [Cloud-to-Cloud](../../deployment/cloud-to-cloud.md) article.
+Aside from these features, it's also from the project view that changes are deployed from one Cloud environment to another. Find out more in the [Cloud-to-Cloud](../../deployments/cloud-to-cloud.md) article.
 
 In the [Settings](../../set-up/project-settings/) section, you will find a lot more options to configure your project.
 
@@ -93,7 +93,7 @@ On Umbraco Cloud, you can receive an invitation from different projects. These p
 * Invitation status
 * Otions to approve, reject, or delete the invitations that have expired.
 
-![Project Invites](images/project-invites.png)
+![Project Invites](../../.gitbook/assets/project-invites.png)
 
 ### Organizations
 
@@ -103,7 +103,7 @@ On Umbraco Cloud, it is possible to get an organization to manage your company's
 
 The Profile consists of the following information:
 
-![Edit profile](images/change-profile-info-new.png)
+![Edit profile](../../.gitbook/assets/change-profile-info-new.png)
 
 * Name: The name that is displayed on Umbraco Cloud.
 *   Email: This email address is used for logging in to Umbraco Cloud and will receive email notifications from the Umbraco Cloud Portal.
@@ -114,7 +114,7 @@ The Profile consists of the following information:
 
 \* Telephone: The contact number of the user. \* Edit profile: Allows you to update and ensure that your information is valid and up to date for your Umbraco Cloud profile. \* Change Password: Change the password for your Umbraco Cloud account from here.
 
-![change password](images/change-password.png)
+![change password](../../.gitbook/assets/change-password.png)
 
 ## Release Notes
 

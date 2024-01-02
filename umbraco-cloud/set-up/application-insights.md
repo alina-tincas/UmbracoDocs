@@ -1,5 +1,4 @@
-
-# Application Insights on Umbraco cloud
+# Application Insights
 
 ## Installing Application Insights
 
@@ -11,7 +10,7 @@ The first thing to have in place when installing AI is an AI resource on Azure, 
 
 After that, you can go ahead and grab your `instrumentation key`, from the AI Resource overview
 
-![alt text](images/01-Instrumentation-key.png "Instrumentation Key")
+![alt text](../.gitbook/assets/01-Instrumentation-key.png)
 
 ### Cloud Solution
 

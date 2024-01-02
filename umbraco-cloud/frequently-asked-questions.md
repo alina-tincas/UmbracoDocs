@@ -1,4 +1,4 @@
-# Frequently asked questions
+# Frequently asked questions/FAQ
 
 Here you will find answers to the questions we most commonly hear from people that are wondering if Umbraco Cloud is the right fit for their project. The answers you will find here are of a more technical nature and are directed at developers.
 
@@ -66,15 +66,16 @@ Yes, you can. Please note that Umbraco Cloud also uses Cloudflare for DNS, so yo
 Generally, we recommend that you keep your DNS entry set to 'DNS Only' in your own Cloudflare account and let Umbraco Cloud handle the automatic TLS (HTTPS) certificates for the hostnames you point to your Umbraco Cloud project. Check with our support team, via chat or using support@umbraco.com, before bringing in your own Cloudflare setup.
 
 ### Does Cloudflare add any additional HTTP request headers?
-HTTP headers are bits of information that are passed along within every communication between (web) servers and (browser) clients. All HTTP requests to custom hostnames on Umbraco Cloud pass through Cloudflare. 
+
+HTTP headers are bits of information that are passed along within every communication between (web) servers and (browser) clients. All HTTP requests to custom hostnames on Umbraco Cloud pass through Cloudflare.
 
 HTTP requests headers can be useful for for example multilingual purposes to redirect users of certain languages to a specific URL. Here, the collection of visitor location headers below will be helpful. The values for these location headers are derived from the visitor's IP address.
 
-- `cf-ipcity`: The visitor's city
-- `cf-ipcontinent`: The visitor's continent
-- `cf-iplatitude`: The visitor's latitude
-- `cf-iplongitude`: The visitor's longitude
-- `uc-ipcountry`: The visitor’s country. `uc-ipcountry` header is a carbon copy of [cf-ipcountry](https://developers.cloudflare.com/fundamentals/get-started/reference/http-request-headers/#cf-ipcountry).
+* `cf-ipcity`: The visitor's city
+* `cf-ipcontinent`: The visitor's continent
+* `cf-iplatitude`: The visitor's latitude
+* `cf-iplongitude`: The visitor's longitude
+* `uc-ipcountry`: The visitor’s country. `uc-ipcountry` header is a carbon copy of [cf-ipcountry](https://developers.cloudflare.com/fundamentals/get-started/reference/http-request-headers/#cf-ipcountry).
 
 Note, the HTTP requests headers are available on all custom hostnames created through Umbraco Cloud. But not the default hostname for the Umbraco Cloud project such as project.euwest01.umbraco.io.
 
@@ -107,7 +108,7 @@ Other reasons why you didn't receive the auto-upgrade:
 * If you are doing a deployment at the time we tried to run the auto-upgrader on your project
 * If your environments aren't running the same minor version - e.g. if you are in the middle of upgrading to a new minor version, and one environment is running 7.6.x while another environment on the same project is running 7.7.x.
 
-You can find all the steps of the auto-upgrade process outlined in the [Upgrades](product-upgrades/#the-process-of-auto-upgrading-an-umbraco-cloud-project) article.
+You can find all the steps of the auto-upgrade process outlined in the [Upgrades](product-upgrades/product-upgrades.md#the-process-of-auto-upgrading-an-umbraco-cloud-project) article.
 
 ### Does leaving pending commits (dev to live) derail the upgrade process?
 
@@ -232,7 +233,7 @@ This is intended behavior.
 
 We will **only delete the files** and not the database entries, as this could potentially cause you to lose data on your Live/production environment.
 
-You can read much more about these deletions in the [Deploying Deletions](deployment/deploying-deletions.md) article.
+You can read much more about these deletions in the [Deploying Deletions](deployments/deploying-deletions.md) article.
 
 ***
 

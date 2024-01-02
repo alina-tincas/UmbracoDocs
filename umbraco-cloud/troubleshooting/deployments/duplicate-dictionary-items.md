@@ -14,7 +14,7 @@ Upgrading to Deploy, one of the major improvements is that Deploy handles everyt
 
 The issue will show up as an extraction error on your Umbraco Cloud environment with a red indicator.
 
-![Extraction error](images/extraction-error.png)
+![Extraction error](../../.gitbook/assets/extraction-error.png)
 
 There are two types of duplicate dictionary item errors. The first scenario (_Scenario 1_) is when you have duplicate _UDA files_ for each of your dictionary items. When this is the case, you will see an error message like this:
 

@@ -2,7 +2,7 @@
 
 * [What is Umbraco Cloud? Let´s find out!](README.md)
 * [Frequently asked questions/FAQ](frequently-asked-questions.md)
-* [Security](security.md)
+* [Security Docs](security.md)
 
 ## Getting Started
 
@@ -25,8 +25,8 @@
 ## Set up
 
 * [Set Up](set-up/set-up.md)
-* [Working with a Local Clone](set-up/working-locally.md)
-  * [Legacy Umbraco Visual Studio Setup](set-up/legacy-umbraco-visual-studio-setup.md)
+* [Working with a Local Clone](set-up/working-locally/README.md)
+  * [Legacy Umbraco Visual Studio Setup](set-up/working-locally/legacy-umbraco-visual-studio-setup.md)
 * [Working with Mac](set-up/working-with-mac.md)
 * [Manage Environments](set-up/manage-environments.md)
 * [Project Settings](set-up/project-settings/README.md)
@@ -65,33 +65,33 @@
 
 ## Deployments
 
-* [Deployment](deployment/README.md)
-* [Deploying between environments](deployment/cloud-to-cloud.md)
-* [Transferring Content, Media, Members, and Forms](deployment/content-transfer.md)
-* [Deploying Deletions](deployment/deploying-deletions.md)
-* [Deployment Webhook](deployment/deployment-webhook.md)
-* [Deploying Changes](deployment/local-to-cloud.md)
-* [Umbraco Forms on Cloud](deployment/umbraco-forms-on-cloud.md)
-* [Deploy Operations](deployment/deploy-operations/README.md)
-  * [Clearing Cached Signatures](deployment/deploy-operations/clearing-cached-signatures.md)
-  * [Deploying Schema from Data Files](deployment/deploy-operations/deploy-schema.md)
-  * [Extract Schema to Data Files](deployment/deploy-operations/extract-schema-to-data-files.md)
-* [Hotfixes](deployment/hotfixes/README.md)
-  * [Apply hotfix by manually moving files](deployment/hotfixes/move-files-manually.md)
-  * [Apply hotfix by using Git](deployment/hotfixes/using-git.md)
-* [Restoring Content](deployment/restoring-content/README.md)
-  * [Partial Restores](deployment/restoring-content/partial-restore.md)
+* [Deployment](deployments/deployment.md)
+* [Deploying between environments](deployments/cloud-to-cloud.md)
+* [Transferring Content, Media, Members, and Forms](deployments/content-transfer.md)
+* [Deploying Deletions](deployments/deploying-deletions.md)
+* [Deployment Webhook](deployments/deployment-webhook.md)
+* [Deploying Changes](deployments/local-to-cloud.md)
+* [Umbraco Forms on Cloud](deployments/umbraco-forms-on-cloud.md)
+* [Deploy Operations](deployments/deploy-operations/README.md)
+  * [Clearing Cached Signatures](deployments/deploy-operations/clearing-cached-signatures.md)
+  * [Deploying Schema from Data Files](deployments/deploy-operations/deploy-schema.md)
+  * [Extract Schema to Data Files](deployments/deploy-operations/extract-schema-to-data-files.md)
+* [Hotfixes](deployments/hotfixes/README.md)
+  * [Apply hotfix by manually moving files](deployments/hotfixes/move-files-manually.md)
+  * [Apply hotfix by using Git](deployments/hotfixes/using-git.md)
+* [Restoring Content](deployments/restoring-content/README.md)
+  * [Partial Restores](deployments/restoring-content/partial-restore.md)
 
 ## Databases
 
-* [Working with databases](databases/README.md)
+* [Working with databases](databases/databases.md)
 * [Database backups](databases/backups.md)
 * [Database](databases/cloud-database.md)
 * [Working with a Cloud database locally](databases/local-database.md)
 
 ## Product Upgrades
 
-* [Product Upgrades](product-upgrades/README.md)
+* [Product Upgrades](product-upgrades/product-upgrades.md)
 * [Major Upgrades](product-upgrades/major-upgrades.md)
 * [Minor Upgrades](product-upgrades/minor-upgrades.md)
 * [Version Specific Upgrades](product-upgrades/version-specific-upgrades/README.md)
@@ -104,7 +104,7 @@
 
 ## Troubleshooting
 
-* [Troubleshooting](troubleshooting/README.md)
+* [Troubleshooting](troubleshooting/troubleshooting.md)
 * [Troubleshooting FAQ](troubleshooting/faq.md)
 * [Log files](troubleshooting/log-files.md)
 * [The Umbraco Backoffice](troubleshooting/troubleshooting-backoffice.md)

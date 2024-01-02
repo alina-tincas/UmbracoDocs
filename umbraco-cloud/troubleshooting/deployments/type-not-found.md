@@ -2,7 +2,7 @@
 
 This issue will present itself as an extraction error on your target environment for a deploy.
 
-![Extraction error on Live](images/Error\_environment.png)
+![Extraction error on Live](../../.gitbook/assets/Error\_environment.png)
 
 The extraction error happens with two Document Types where one of them have been allowed as a child node type for the other Document Type.
 
@@ -14,7 +14,7 @@ Because the parent Document Type still has the references from the deleted child
 
 Open the **More info** to see the details for the error message.
 
-![Extraction error on Live](images/Extraction\_Error.png)
+![Extraction error on Live](../../.gitbook/assets/Extraction\_Error.png)
 
 In the case illustrated above the extraction error is saying:
 

@@ -2,7 +2,7 @@
 
 When a project has one or more Child Projects it will appear on the Project page and the user can click to get an overview of all the Child Projects based on the current project.
 
-![Manage Baseline Children](images/mange-updates-here\_v10.png)
+![Manage Baseline Children](../../.gitbook/assets/mange-updates-here\_v10.png)
 
 From this page, you will have an overview of all the Child Projects this Baseline project has. This is also where you go when you want to push upgrades from your Baseline Project to the Child Projects.
 
@@ -13,7 +13,7 @@ Follow the upgrade guides for [Minor](../../product-upgrades/minor-upgrades.md) 
 Once the upgrade has been verified on the Baseline project, follow the guides outlined here to push the upgrade to the child projects.
 
 {% hint style="info" %}
-We recommend setting up a Development environment on your Child projects before deploying the updates/upgrades.&#x20;
+We recommend setting up a Development environment on your Child projects before deploying the updates/upgrades.
 
 That way you'll have an environment to test on and verify that everything has been deployed correctly.
 
@@ -37,32 +37,32 @@ If you've done any version-specific steps, when upgrading the baseline project, 
 
 If the upgrade has been completed successfully, the Child Projects will be displayed under the **Successful Updates/upgrades** section.
 
-![Upgrade Child Projects](images/manage-baseline-children\_v10.gif)
+![Upgrade Child Projects](../../.gitbook/assets/manage-baseline-children\_v10.gif)
 
 ## Deploying Minor upgrades to Child projects
 
-1. &#x20;Go to the **Manage child projects** page on the Baseline.
+1. Go to the **Manage child projects** page on the Baseline.
 
-On this page, the Child projects will have an available upgrade.&#x20;
+On this page, the Child projects will have an available upgrade.
 
 2. Select the projects you want to upgrade.
 3. Click the "Upgrade selected children" button.
 
-First, any pending changes made on the Baseline will be deployed to the child site.&#x20;
+First, any pending changes made on the Baseline will be deployed to the child site.
 
-Once the changes have been deployed, the child site will be upgraded to the same version as the Baseline site.&#x20;
+Once the changes have been deployed, the child site will be upgraded to the same version as the Baseline site.
 
 {% hint style="info" %}
 All products (CMS, Deploy, and Forms) will be upgraded.
 {% endhint %}
 
-![Minor upgrade labels](images/minor-upgrades.png)
+![Minor upgrade labels](../../.gitbook/assets/minor-upgrades.png)
 
-The upgrade itself will happen once you click the upgrade button. This will start by triggering the update, where all the files are updated on the children from the baseline.&#x20;
+The upgrade itself will happen once you click the upgrade button. This will start by triggering the update, where all the files are updated on the children from the baseline.
 
 Once the files are in place, we also run the upgrade process, making sure that the children are fully upgraded.
 
-When using the feature, the Baseline Child projects must be set up following our [best practices for handling config files](configuration-files.md). This means that any changes to the Child project should be applied via a config transform file.&#x20;
+When using the feature, the Baseline Child projects must be set up following our [best practices for handling config files](configuration-files.md). This means that any changes to the Child project should be applied via a config transform file.
 
 The reason for this is that the Child Projects config files will be merged by choosing the parent's config files first. That is to ensure that changes to config files, that have been made in the minor upgrade, will also be applied to the child projects.
 

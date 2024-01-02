@@ -36,8 +36,8 @@ Click **Security** from the **Settings** dropdown on your Umbraco Cloud Project.
 
 Aside from the environments, the Security page is divided into two parts: 'Default Settings' and 'Hostname Specific Settings'. Use the **Default Settings** to configure what should be applied by default to new and existing hostnames.
 
-![Default Security Settings](../images/security-subpage.png)
+![Default Security Settings](../../.gitbook/assets/security-subpage.png)
 
 If you want to have different security options for different hostnames, then select the hostname under **Hostname Specific Settings** and adjust the options for that specific hostname. This might be useful if you want to test the different options on another hostname than your primary hostname.
 
-![Hostnames Specific Security Settings](../images/security-subpage-hostname-specific.png)
+![Hostnames Specific Security Settings](../../.gitbook/assets/security-subpage-hostname-specific.png)

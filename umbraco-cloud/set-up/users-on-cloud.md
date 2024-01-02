@@ -41,7 +41,7 @@ To invite a User you need to do the following:
 3. Click on the **Invite User** button.
 4. Enter the **Name**, **Email**, add a User Group to assign access and permissions, and enter a new **Message** for the invitation.
 
-![Invite User](images/invite\_user.png)
+![Invite User](../.gitbook/assets/invite\_user.png)
 
 ### Accept invitation
 
@@ -51,7 +51,7 @@ If the invited person already has a user on Umbraco Cloud they will be able to s
 
 If the User being invited does not have a User on Umbraco Cloud, they will receive an email asking them to create one.
 
-![New User Invitation](images/New\_user.png)
+![New User Invitation](../.gitbook/assets/New\_user.png)
 
 Once the User has been created, it is now possible for them to log in to the Umbraco Cloud portal.
 
@@ -59,7 +59,7 @@ From here they will be able to see a pending invitation to the project they have
 
 Once the invitation has been accepted, they can now access the project through the Umbraco Cloud portal and access their site from there.
 
-![New User Invitation](images/Project\_overview.png)
+![New User Invitation](../.gitbook/assets/Project\_overview.png)
 
 ## User group permissions for transfers and restores
 
@@ -82,11 +82,11 @@ To create a User Group, go to the **Users** section of the backoffice.
 
 1.  Click on "Groups" in the right corner, from here you are able to either create a new User Group or edit an existing one.
 
-    ![User Groups](images/Users.png)
+    ![User Groups](../.gitbook/assets/Users.png)
 2. Click "Create group"
 3.  Scroll down and go to the "Content" heading in the "Default permissions" section. Here you can see three options:
 
-    ![User Groups](images/default\_permisions-v10.png)
+    ![User Groups](../.gitbook/assets/default\_permisions-v10.png)
 4. Decide whether the users in the new User Group can restore items for the whole workspace, restore items for a tree, or partially restore items and click **Save**.
 
 To edit an already existing User Group:
@@ -102,11 +102,11 @@ You can set the permission when you are creating or editing an existing User Gro
 
 1.  Add the setting for Granular permission for your content nodes at the bottom of the User Group.
 
-    ![Granular permission](images/Granular.png)
+    ![Granular permission](../.gitbook/assets/Granular.png)
 2. Click "Add".
 3.  Choose the content node which you want to set the Granular settings for.
 
-    ![Granular content node](images/Granular\_node.png)
+    ![Granular content node](../.gitbook/assets/Granular\_node.png)
 4.  Set permissions for restore, partial restore, and queueing content for transfer.
 
-    ![Granular permission](images/Granular\_permission-v10.png)
+    ![Granular permission](../.gitbook/assets/Granular\_permission-v10.png)

@@ -21,9 +21,9 @@ Both the Development and the Staging environments are protected with **basic aut
 
     The Live environment is included in the Standard and Professional plans on Umbraco Cloud.
 
-For more information about the workflow on Umbraco Cloud, see the [Deployments](../deployment/) article. Below you will find a technical overview of the different parts that make up an environment on your Umbraco Cloud project:
+For more information about the workflow on Umbraco Cloud, see the [Deployments](../deployments/deployment.md) article. Below you will find a technical overview of the different parts that make up an environment on your Umbraco Cloud project:
 
-![Umbraco Cloud Environment Technical Overview](images/environment-tech-overview.png)
+![Umbraco Cloud Environment Technical Overview](../.gitbook/assets/environment-tech-overview.png)
 
 ## Site and Git Repository
 
@@ -41,7 +41,7 @@ Read more about this and team member roles in the [Team Members](../set-up/proje
 
 Each of your Umbraco Cloud environments has its own SQL Azure database. You have full access to the databases, and you can create custom tables as you'd expect from any other hosting provider.
 
-Learn more about how to connect to your Umbraco Cloud databases in the [Database](../databases/) article.
+Learn more about how to connect to your Umbraco Cloud databases in the [Database](../databases/databases.md) article.
 
 ## Power Tools (Kudu)
 

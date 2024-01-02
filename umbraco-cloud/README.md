@@ -1,13 +1,28 @@
 ---
 description: >-
-  Here you can find information about getting started working with Umbraco Cloud.
+  Here you can find information about getting started working with Umbraco
+  Cloud.
 ---
 
-# What is Umbraco Cloud?
+# What is Umbraco Cloud? Let´s find out!
+
+
+
+{% swagger method="get" path="" baseUrl="" summary="ghkgk" %}
+{% swagger-description %}
+bhkbhkbk
+{% endswagger-description %}
+{% endswagger %}
+
+{% swagger method="get" path="" baseUrl="" summary="" %}
+{% swagger-description %}
+
+{% endswagger-description %}
+{% endswagger %}
 
 Umbraco Cloud is our hosting option for your favorite Umbraco CMS. Built on the Microsoft Azure Cloud and encompassing web standard approaches, Umbraco Cloud is familiar to Umbraco's new and old users. With Umbraco Cloud, there are no limits to what you can accomplish. Anything you can do with Umbraco and web technology you can do with Umbraco Cloud.
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Getting Started</strong></td><td>Learn how to get started working with Umbraco Cloud.</td><td><a href="getting-started/the-umbraco-cloud-portal/">the-umbraco-cloud-portal</a></td><td><a href=".gitbook/assets/arm_with_u_logo.png">arm_with_u_logo.png</a></td></tr><tr><td><strong>Setup</strong></td><td>Learn how you can set up your Umbraco Cloud projects.</td><td><a href="set-up/set-up.md">set-up.md</a></td><td><a href=".gitbook/assets/code_too.png">code_too.png</a></td></tr><tr><td><strong>Deployments</strong></td><td>Learn how Deployments on Umbraco Cloud works.</td><td><a href="deployment/README.md">Deployments</a></td><td><a href=".gitbook/assets/arrow.png">arrow.png</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Getting Started</strong></td><td>Learn how to get started working with Umbraco Cloud.</td><td><a href="getting-started/the-umbraco-cloud-portal/">the-umbraco-cloud-portal</a></td><td><a href=".gitbook/assets/arm_with_u_logo.png">arm_with_u_logo.png</a></td></tr><tr><td><strong>Setup</strong></td><td>Learn how you can set up your Umbraco Cloud projects.</td><td><a href="set-up/set-up.md">set-up.md</a></td><td><a href=".gitbook/assets/code_too.png">code_too.png</a></td></tr><tr><td><strong>Deployments</strong></td><td>Learn how Deployments on Umbraco Cloud works.</td><td><a href="deployments/deployment.md">deployment.md</a></td><td><a href=".gitbook/assets/arrow.png">arrow.png</a></td></tr></tbody></table>
 
 {% embed url="https://www.youtube.com/embed/TcmuTpJT1Kw?rel=0" %}
 How to create Umbraco Cloud trial
@@ -29,7 +44,7 @@ The easiest way to get started with an Umbraco Cloud project is to take a [14-da
 
 Since we set up the entire project, we recommend that you get to know your project before you start building.
 
-To start working with and building your site, you can either work directly in the backoffice on the Cloud environment or you can [clone down the project to your local machine](set-up/working-locally.md). For Mac users, see [Working with Mac](set-up/working-with-mac.md).
+To start working with and building your site, you can either work directly in the backoffice on the Cloud environment or you can [clone down the project to your local machine](set-up/working-locally/). For Mac users, see [Working with Mac](set-up/working-with-mac.md).
 
 ### Umbraco Cloud Portal Project
 
@@ -38,7 +53,7 @@ To create a project in Umbraco Cloud Portal:
 1. Log in to the [Umbraco Cloud Portal](https://www.s1.umbraco.io/projects) with your credentials.
 2.  Click **Create New Project**.
 
-    <figure><img src="getting-started/images/create-project.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/create-project.png" alt=""><figcaption></figcaption></figure>
 3. Select **Umbraco Cloud** from the list of projects.
 4. Choose a **Plan Selection** as per your choice.
 5. Choose the Umbraco version for your Project.
@@ -68,7 +83,7 @@ Once a project is created, you can view its overview in Umbraco Cloud Portal:
 2. Select your Project from the **Projects** dashboard.
 3.  Go to Project **Settings** and click **Overview**.
 
-    <figure><img src="getting-started/images/Cloud-Overview.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/Cloud-Overview.png" alt=""><figcaption></figcaption></figure>
 
 The Overview Page consists of:
 
@@ -79,7 +94,7 @@ The Overview Page consists of:
 * Created by - The name and email of the project creator.
 *   Creation date - The date the project was created.
 
-    ![Project Overview Page](getting-started/images/Cloud\_Overview\_Page.png)
+    ![Project Overview Page](.gitbook/assets/Cloud\_Overview\_Page.png)
 
 Umbraco Cloud takes care of installation, infrastructure, and security. You will also get the tools to work with your project in the Cloud or locally. Local development starts with cloning the project down to your PC or Mac.
 

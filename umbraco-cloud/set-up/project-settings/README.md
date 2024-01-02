@@ -19,19 +19,19 @@ When working with a Umbraco Cloud project, you can handle a lot of the project c
 * [Availability & Performance](./#availability-performance)
 * [Delete the project.](./#delete-project)
 
-![settings](../images/project-settings-v10.png)
+![settings](../../.gitbook/assets/project-settings-v10.png)
 
 ## Overview
 
 You can view the **Overview** of your Umbraco Cloud project from the **Settings** menu.
 
-![Project Overview](../images/project-overview-1.png)
+![Project Overview](../../.gitbook/assets/project-overview-1.png)
 
 ## [Edit team](team-members/)
 
 Manage the team members and user permissions on your project. You can also view the backoffice user groups for each team member, view pending project invites, and manage [Technical contacts](team-members/technical-contact.md) for your project.
 
-## [Connection details](../../databases/)
+## [Connection details](../../databases/databases.md)
 
 Find connection details to your Umbraco Cloud databases. You need to allow your IP to connect to the databases with your local machine.
 
@@ -67,7 +67,7 @@ You can disable/enable it with one click on the Public access page.
 
 Access to manage Public access requires your project to be on the Standard plan or higher.
 
-## [Webhooks](../../deployment/deployment-webhook.md)
+## [Webhooks](../../deployments/deployment-webhook.md)
 
 It is possible to configure a deployment webhook on your environments on Umbraco Cloud projects. This will be triggered upon successful deployments, you can configure where you would like information about the deployment to be posted.
 
@@ -79,15 +79,15 @@ You can upgrade your project to a **Standard** or a **Professional** plan, from 
 
 ### Renaming the Cloud Project
 
-You can rename your Umbraco Cloud project from the **Settings** menu. 
+You can rename your Umbraco Cloud project from the **Settings** menu.
 
-s![settings](../images/renaming-project-v10.png)
+s![settings](../../.gitbook/assets/renaming-project-v10.png)
 
 {% hint style="info" %}
 If you are working locally, you need to update the origin of your local git repository to point to the new clone URL. Alternatively, you can make a fresh local clone of the project, once you’ve changed your project name.
 {% endhint %}
 
-### [Renaming the Project file and folder](../working-locally.md#renaming-the-project-files-and-folders)
+### [Renaming the Project file and folder](../working-locally/#renaming-the-project-files-and-folders)
 
 You can rename your project from the **Rename Project** section in the **Settings** menu on the Umbraco Cloud Portal. When you rename a project, the default hostnames and clone URLs assigned to the project are updated to match the new project name. You can also rename your project files and folders locally.
 
@@ -104,7 +104,7 @@ Manage **Advanced** settings for your project from the **Settings** menu:
 When enabling IIS logging, the site will have to restart. For more information about IIS logging, look at the [Official Microsoft Documentation](https://docs.microsoft.com/en-us/iis/configuration/system.webserver/httplogging).
 {% endhint %}
 
-![Advanced Settings](../images/Advanced-Settings-new.png)
+![Advanced Settings](../../.gitbook/assets/Advanced-Settings-new.png)
 
 ## [Dedicated Resources](dedicated-resources.md)
 

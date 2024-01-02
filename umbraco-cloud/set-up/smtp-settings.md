@@ -47,7 +47,7 @@ By default, the option to request password resets for Backoffice Users is disabl
 
 You can reset your Umbraco ID password from the Umbraco Cloud login page. Find more details about Umbraco ID in the ['Users on Cloud'](users-on-cloud.md) article.
 
-![reset password](images/Reset\_password.png)
+![reset password](../.gitbook/assets/Reset\_password.png)
 
 ## Configure SMTP Settings
 
@@ -63,7 +63,7 @@ A video tutorial covering how to configure SMTP settings on an Umbraco Cloud pro
 {% endembed %}
 
 1. Set up the SMTP server.
-2. Configure the service:&#x20;
+2. Configure the service:
 
 {% tabs %}
 {% tab title="Umbraco 10 +" %}
@@ -121,7 +121,7 @@ To configure your SMTP service you will need the following details:
 {% endtab %}
 {% endtabs %}
 
-![Configure SMTP settings in an Umbraco 9+ site.](images/configure-SMTP-settings.gif)
+![Configure SMTP settings in an Umbraco 9+ site.](../.gitbook/assets/configure-SMTP-settings.gif)
 
 {% hint style="info" %}
 To make sure that your SMTP password is not visible in the `appSettings.json` file, you can use the [Secrets management](project-settings/secrets-management.md) feature to hide the setting by using the following key: `UMBRACO__CMS__GLOBAL__SMTP__PASSWORD.`

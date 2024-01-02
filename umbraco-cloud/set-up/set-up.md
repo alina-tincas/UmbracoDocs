@@ -20,7 +20,7 @@ Articles about configuring settings on your project, as well as managing members
 
 Articles about how to work locally with your Umbraco Cloud project.
 
-* [Working with your site locally](working-locally.md)
+* [Working with your site locally](working-locally/)
 * [Working with a Mac](working-with-mac.md)
 
 ## Related topics

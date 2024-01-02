@@ -55,12 +55,12 @@ Upgrade tutorial Umbraco 9 to 10 on Cloud
 * Scroll down to the **Runtime Settings** section.
 * **Ensure that the latest version of .NET is enabled** for each environment on your Cloud project.
 
-<figure><img src="../../.gitbook/assets/runtime-settings.png" alt=""><figcaption><p>Runtime settings</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/runtime-settings.png" alt=""><figcaption><p>Runtime settings</p></figcaption></figure>
 
 ## Step 2: Clone down your environment
 
 * Clone down the **Development** environment.
-* Build and run the [project locally](../set-up/working-locally.md#running-the-site-locally).
+* Build and run the [project locally](../set-up/working-locally/#running-the-site-locally).
 * Log in to the backoffice.
 * Restore content from your Cloud environment.
 
@@ -70,11 +70,11 @@ Upgrade tutorial Umbraco 9 to 10 on Cloud
 * Right-click your project solution in **Solution Explorer**.
 * Select **Properties**.
 
-<figure><img src="images/Solution-Explorer.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Solution-Explorer.png" alt=""><figcaption></figcaption></figure>
 
 * Select the same **.Net** **Target Framework** drop-down in the **General** section of the **Application** tab as on your Cloud project.
 
-![Target Framework](images/Target-Framework.png)
+![Target Framework](../.gitbook/assets/Target-Framework.png)
 
 * Go to **Tools** > **NuGet Package Manager** > **Manage NuGet Packages for Solution...**.
 * Navigate to the **Updates** tab.
@@ -89,7 +89,7 @@ Upgrade tutorial Umbraco 9 to 10 on Cloud
 * Checkmark the `Microsoft.Extensions.DependencyInjection.Abstractions` package if it appears in the list.
 * Select **Update**.
 
-![All packages checked in the Visual Studio Package manager and ready for update](images/check-all-packages-2.png)
+![All packages checked in the Visual Studio Package manager and ready for update](../.gitbook/assets/check-all-packages-2.png)
 
 {% hint style="info" %}
 If you have more projects in your solution or other packages, make sure that these are also updated to support the latest .NET framework.
@@ -158,7 +158,7 @@ Remove the following files and folders _manually_ from your local project:
 * **Disable** the Unattended Upgrades feature.
 * **Build and run** the project to verify everything works as expected.
 
-![Target Framework](images/verify-v10-upgrade-locally.png)
+![Target Framework](../.gitbook/assets/verify-v10-upgrade-locally.png)
 
 Once the Umbraco project runs locally without any errors, the next step is to deploy and test on the Cloud Development environment.
 
@@ -179,7 +179,7 @@ The files and folder above need to be removed on the **Development** environment
 
 </details>
 
-* Push the changes to the **Development** environment. See the [Deploying from local to your environments](../deployment/local-to-cloud.md) article.
+* Push the changes to the **Development** environment. See the [Deploying from local to your environments](../deployments/local-to-cloud.md) article.
 * Test **everything** in the **Development** environment.
 
 We highly recommend that you go through everything in your Development environment. This can help you identify any potential errors after the upgrade, and ensure that you are not deploying any issues onto your Live environment.
@@ -209,5 +209,5 @@ They need to be removed through `KUDU` -> `Debug Console` -> `CMD` -> `Site` -> 
 
 Once everything works as expected in the development environment, you can push the upgrade to the live environment.
 
-* [Working locally with Umbraco Cloud](../set-up/working-locally.md)
+* [Working locally with Umbraco Cloud](../set-up/working-locally/)
 * [KUDU on Umbraco Cloud](../set-up/power-tools/)

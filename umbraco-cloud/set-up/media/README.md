@@ -10,7 +10,7 @@ All media files on your Umbraco Cloud projects are stored using Azure Blob Stora
 
 To access the media files on your Umbraco Cloud project you can either:
 
-* [Clone your Cloud environment to your local machine](../working-locally.md) (**Recommended**)
+* [Clone your Cloud environment to your local machine](../working-locally/) (**Recommended**)
 * [Connect using Azure Storage Explorer](connect-to-azure-storage-explorer.md)
 
 ## About Azure Blob Storage
@@ -23,7 +23,7 @@ You can learn more about Azure Blob Storage in the [Microsoft Documentation](htt
 
 When you clone one of your Cloud environments to your local machine, you will need to run a content restore from the backoffice to get a copy of all the media files from the Azure Blob Storage container connected to that environment.
 
-You can learn more about how this works in the [Restoring content](../../deployment/restoring-content/) article.
+You can learn more about how this works in the [Restoring content](../../deployments/restoring-content/) article.
 
 When you add new media files to your project while working on a local clone, the files will automatically be added to the Azure Blob Storage container connected to the environment you deploy to.
 

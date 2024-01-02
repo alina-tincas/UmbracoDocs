@@ -18,11 +18,11 @@ The first step in moving to a dedicated resource is to access your project in th
 * Find and select the project that you want to move to dedicated resources.
 * Select _Dedicated Resources_ from the _Settings_ menu.
 
-![Upgrade plan step 1a](../images/Step1a.png)
+![Upgrade plan step 1a](../../.gitbook/assets/Step1a.png)
 
 * There are currently three dedicated options for you to choose from the Professional plan, two dedicated options from the Standard plan, and one dedicated option from the Starter plan. For each of the dedicated options, you will find its name, the memory and CPU cores, and the price per month.
 
-![Upgrade plan step 2a](../images/Step2a.png)
+![Upgrade plan step 2a](../../.gitbook/assets/Step2a.png)
 
 * By hitting the "Upgrade" button on your dedicated option of choice and confirming this, you will be redirected to the project page where you will be notified when the move to a dedicated resource has been completed.
 
@@ -34,15 +34,14 @@ Are you moving your Cloud project to a dedicated resource in the middle of the m
 
 Moving away from dedicated resources and back to shared can be done from the _Dedicated Resources_ page.
 
-![Downgrade](../images/DowngradeA.png)
+![Downgrade](../../.gitbook/assets/DowngradeA.png)
 
 * By hitting "Downgrade to shared" and confirming your choice, you will be redirected to the project page where you will be notified when the move back to a shared resource has been completed.
 * Your Cloud project is now back on a shared resource.
 
 ## Frequently asked questions
 
-Wondering what happens when you move your environment to a dedicated server? 
-Below you can find a list of the most frequently asked questions including answers.
+Wondering what happens when you move your environment to a dedicated server? Below you can find a list of the most frequently asked questions including answers.
 
 ### Will it move all the environments to the dedicated server?
 
@@ -58,7 +57,7 @@ It will not be possible to work on the project while it is being moved to the de
 
 ### Will the environments be moved at the same time or one by one?
 
-Yes, all environments will be moved simultaneously. 
+Yes, all environments will be moved simultaneously.
 
 ### Will the live environment be unavailable while the Project is moved?
 

@@ -8,7 +8,7 @@ In this article, you can find information on how to manage your Umbraco Cloud su
 
 Umbraco Cloud subscriptions managed from the Umbraco Shop can be accessed through [umbraco.com](https://umbraco.com) or click on the **Manage Subscriptions** link from the **Profile** dropdown on the Umbraco Cloud Portal.
 
-![Manage Subscriptions](images/manage-subscriptions.png)
+![Manage Subscriptions](../../.gitbook/assets/manage-subscriptions.png)
 
 ## Invoices
 
@@ -16,7 +16,7 @@ You can find all your invoices when you log into the shop on [Umbraco.com](https
 
 Once you have logged in, you can see an overview of your account where you can find your [Order History](https://shop.umbraco.com/profile/options/order-history/). In this section, you can see all your invoices.
 
-![Overview of your account](images/account-overview.png)
+![Overview of your account](../../.gitbook/assets/account-overview.png)
 
 Under the Order History, you can get an overview of all your invoices. The overview has the following details:
 
@@ -27,7 +27,7 @@ Under the Order History, you can get an overview of all your invoices. The overv
 * Status of the order
 * A download link for the invoice
 
-![Order History](images/order-history.png)
+![Order History](../../.gitbook/assets/order-history.png)
 
 {% hint style="info" %}
 If you have not yet paid for your invoice, the download link will change to a payment link.

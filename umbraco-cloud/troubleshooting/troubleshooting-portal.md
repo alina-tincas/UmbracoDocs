@@ -2,7 +2,7 @@
 
 An error in the Cloud Portal often looks like this:
 
-<figure><img src="images/portal-error.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/portal-error.png" alt=""><figcaption></figcaption></figure>
 
 Errors in the Cloud Portal are shown as a colored indicator of an environment. An environment can have three colors:
 
@@ -16,7 +16,7 @@ When your environment has an error and you try to deploy again it will not be ab
 
 ## My environment is red. What do I do?
 
-The first thing to check is what type of error it is, you can do so by clicking the **More info** button on the state: ![Portal error](images/portal-error2.png)
+The first thing to check is what type of error it is, you can do so by clicking the **More info** button on the state: ![Portal error](../.gitbook/assets/portal-error2.png)
 
 We have some guides on how to fix the most common errors below:
 

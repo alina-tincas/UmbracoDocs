@@ -22,10 +22,10 @@ Video example.
 
 ### On Umbraco Cloud Portal
 
-1. Go to your project and click on the arrow next to the environment name. ![Logs on Cloud](images/logs.png)
+1. Go to your project and click on the arrow next to the environment name. ![Logs on Cloud](../.gitbook/assets/logs.png)
 2. Click **Logs** to view the log details.
 
-<figure><img src="images/logs-table.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/logs-table.png" alt=""><figcaption></figcaption></figure>
 
 ### On Kudu
 

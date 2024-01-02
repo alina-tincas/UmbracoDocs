@@ -1,7 +1,7 @@
 # Manually run Extractions on your Cloud Environments
 
 {% hint style="info" %}
-If you are running Deploy 4+, we recommend you run extractions from the Deploy Dashboard instead of KUDU. For more information, see the [Deploy Dashboard](../../deployment/deploy-operations/deploy-schema.md) article.
+If you are running Deploy 4+, we recommend you run extractions from the Deploy Dashboard instead of KUDU. For more information, see the [Deploy Dashboard](../../deployments/deploy-operations/deploy-schema.md) article.
 {% endhint %}
 
 When you deploy from one environment to another on your Umbraco Cloud project, the files from the Git repository are merged into the files used on the site. The Deploy engine then runs an extraction. This means that the files on the disk will be deserialized into the database in the Cloud environment.
@@ -26,7 +26,7 @@ When using Umbraco 7 or 8, you need to navigate to `site/wwwroot/data` folder.
    1. `deploy-complete`: The extraction succeeded and your environment is in good shape.
    2. `deploy-failed`: The extraction failed - open the file, to see the error message. The same error message will be shown on your environment in the Umbraco Cloud Portal.
 
-![Run manual extraction](images/manual-extraction-v9.gif)
+![Run manual extraction](../../.gitbook/assets/manual-extraction-v9.gif)
 
 {% hint style="info" %}
 Sometimes, you might encounter a deploy-marker called `deploy`. This usually means that extraction cannot run and you need to restart your environment for the extraction to run.
